@@ -33,30 +33,25 @@ src/
 ├── model/
 
 │   ├── ServicioTuristico.java
-
 │   ├── RutaGastronomica.java
-
 │   ├── PaseoLacustre.java
-
 │   └── ExcursionCultural.java
 
 │
 
 ├── data/
-
 │   └── GestorServicios.java
 
 │
 
 └── ui/
-
     └── Main.java
 
 
 
 📂 Descripción de las clases
 
-ServicioTuristico
+-ServicioTuristico
 
 
 Clase base que representa un servicio turístico.
@@ -71,8 +66,7 @@ duracionHoras
 
 
 
-
-Subclase de ServicioTuristico.
+-Subclase de ServicioTuristico.
 
 Atributo adicional:
 
@@ -85,7 +79,7 @@ Sobrescribe el método toString() para mostrar la información heredada y el atr
 
 
 
-PaseoLacustre
+-PaseoLacustre
 
 Subclase de ServicioTuristico.
 
@@ -100,7 +94,7 @@ Utiliza super() para inicializar los atributos heredados y sobrescribe el métod
 
 
 
-ExcursionCultural
+-ExcursionCultural
 
 Subclase de ServicioTuristico.
 
@@ -115,7 +109,7 @@ Extiende la funcionalidad de la clase base reutilizando sus atributos mediante h
 
 
 
-GestorServicios
+-GestorServicios
 
 Clase encargada de crear instancias de prueba de cada tipo de servicio turístico.
 
@@ -124,7 +118,7 @@ Clase encargada de crear instancias de prueba de cada tipo de servicio turístic
 
 
 
-Main
+-Main
 
 Clase principal del sistema.
 
