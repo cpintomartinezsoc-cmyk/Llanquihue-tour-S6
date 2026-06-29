@@ -57,12 +57,9 @@ src/
         -ServicioTuristico
 
          Clase base que representa un servicio turístico.
-        Atributos:
+         Atributos:
          nombre
          duracionHoras
-
-
-
 
 
        -Subclase de ServicioTuristico.
@@ -72,17 +69,12 @@ src/
         Sobrescribe el método toString() para mostrar la información heredada y el atributo propio.
 
 
-
         -PaseoLacustre
 
         Subclase de ServicioTuristico.
         Atributo adicional:
         tipoEmbarcacion
         Utiliza super() para inicializar los atributos heredados y sobrescribe el método toString().
-
-
-
-
 
 
         -ExcursionCultural
@@ -94,21 +86,15 @@ src/
 
 
 
-
-
-
         -GestorServicios
         Clase encargada de crear instancias de prueba de cada tipo de servicio turístico.
 
 
 
-
-
- 
         -Main
    
-       Clase principal del sistema.
-       Su función consiste en crear un objeto de GestorServicios y ejecutar el método encargado de crear y mostrar todos los servicios turísticos.
+        Clase principal del sistema.
+        Su función consiste en crear un objeto de GestorServicios y ejecutar el método encargado de crear y mostrar todos los servicios turísticos.
 
 
 
