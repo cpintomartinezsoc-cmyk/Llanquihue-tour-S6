@@ -62,7 +62,7 @@ src/
          duracionHoras
 
 
-       -Subclase de ServicioTuristico.
+        -Subclase de ServicioTuristico.
 
         Atributo adicional:
         numeroDeParadas
@@ -94,14 +94,6 @@ src/
         -Main
         Clase principal del sistema.
         Su función consiste en crear un objeto de GestorServicios y ejecutar el método encargado de crear y mostrar todos los servicios turísticos.
-
-
-
-
-
-
-
-
 
 
 
