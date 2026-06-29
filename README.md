@@ -54,22 +54,22 @@ src/
 
 📂 Descripción de las clases
 
-          -ServicioTuristico
+        -ServicioTuristico
 
-           Clase base que representa un servicio turístico.
-           Atributos:
-           nombre
-           duracionHoras
-
-
+         Clase base que representa un servicio turístico.
+        Atributos:
+         nombre
+         duracionHoras
 
 
 
-         -Subclase de ServicioTuristico.
 
-         Atributo adicional:
-         numeroDeParadas
-         Sobrescribe el método toString() para mostrar la información heredada y el atributo propio.
+
+       -Subclase de ServicioTuristico.
+
+        Atributo adicional:
+        numeroDeParadas
+        Sobrescribe el método toString() para mostrar la información heredada y el atributo propio.
 
 
 
