@@ -71,6 +71,7 @@ duracionHoras
 
 
 
+
 Subclase de ServicioTuristico.
 
 Atributo adicional:
@@ -78,6 +79,7 @@ Atributo adicional:
 numeroDeParadas
 
 Sobrescribe el método toString() para mostrar la información heredada y el atributo propio.
+
 
 
 
@@ -97,6 +99,7 @@ Utiliza super() para inicializar los atributos heredados y sobrescribe el métod
 
 
 
+
 ExcursionCultural
 
 Subclase de ServicioTuristico.
@@ -111,9 +114,11 @@ Extiende la funcionalidad de la clase base reutilizando sus atributos mediante h
 
 
 
+
 GestorServicios
 
 Clase encargada de crear instancias de prueba de cada tipo de servicio turístico.
+
 
 
 
@@ -124,6 +129,7 @@ Main
 Clase principal del sistema.
 
 Su función consiste en crear un objeto de GestorServicios y ejecutar el método encargado de crear y mostrar todos los servicios turísticos.
+
 
 
 
@@ -146,6 +152,7 @@ Su función consiste en crear un objeto de GestorServicios y ejecutar el método
 6.ui/Main.java
 
 7.Observar en la consola la información correspondiente a todos los servicios turísticos creados.
+
 
 
 
