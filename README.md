@@ -53,6 +53,7 @@ src/
     └── Main.java
 
 
+
 📂 Descripción de las clases
 
 ServicioTuristico
@@ -68,6 +69,8 @@ duracionHoras
 
 
 
+
+
 Subclase de ServicioTuristico.
 
 Atributo adicional:
@@ -75,6 +78,8 @@ Atributo adicional:
 numeroDeParadas
 
 Sobrescribe el método toString() para mostrar la información heredada y el atributo propio.
+
+
 
 
 
@@ -90,6 +95,8 @@ Utiliza super() para inicializar los atributos heredados y sobrescribe el métod
 
 
 
+
+
 ExcursionCultural
 
 Subclase de ServicioTuristico.
@@ -102,9 +109,13 @@ Extiende la funcionalidad de la clase base reutilizando sus atributos mediante h
 
 
 
+
+
 GestorServicios
 
 Clase encargada de crear instancias de prueba de cada tipo de servicio turístico.
+
+
 
 
 
@@ -117,14 +128,26 @@ Su función consiste en crear un objeto de GestorServicios y ejecutar el método
 
 
 
+
+
 ▶️ Instrucciones para ejecutar el proyecto
-Clonar el repositorio desde GitHub.
-git clone https://github.com/cpintomartinezsoc-cmyk/Llanquihue-tour-S6.git
-Abrir el proyecto en IntelliJ IDEA.
-Verificar que todas las clases se encuentren organizadas en los paquetes correspondientes.
-Ejecutar la clase:
-ui/Main.java
-Observar en la consola la información correspondiente a todos los servicios turísticos creados.
+
+
+1.Clonar el repositorio desde GitHub.
+
+2.git clone https://github.com/cpintomartinezsoc-cmyk/Llanquihue-tour-S6.git
+
+3.Abrir el proyecto en IntelliJ IDEA.
+
+4.Verificar que todas las clases se encuentren organizadas en los paquetes correspondientes.
+
+5.Ejecutar la clase:
+
+6.ui/Main.java
+
+7.Observar en la consola la información correspondiente a todos los servicios turísticos creados.
+
+
 
 
 
