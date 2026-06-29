@@ -1,14 +1,20 @@
 <img width="488" height="157" alt="image" src="https://github.com/user-attachments/assets/f80ca68b-059b-4ed7-8500-7e1562cc24f6" />
 
 🧠 Actividad Formativa Semana 6 – Creando Jerarquías de Clases con Herencia Simple
-👤 Autor del proyecto
+👤 
 
 Nombre completo: Camilo Pinto
+
 Carrera: Analista Programador
+
 Asignatura: Desarrollo Orientado a Objetos I
+
 Caso: Llanquihue Tour
 
+
+
 📘 Descripción general del sistema
+
 
 Este proyecto corresponde a la actividad formativa de la Semana 6 de la asignatura Desarrollo Orientado a Objetos I.
 
@@ -21,28 +27,45 @@ La aplicación permite crear diferentes tipos de servicios turísticos a partir 
 
 
 src/
+
 │
+
 ├── model/
+
 │   ├── ServicioTuristico.java
+
 │   ├── RutaGastronomica.java
+
 │   ├── PaseoLacustre.java
+
 │   └── ExcursionCultural.java
+
 │
+
 ├── data/
+
 │   └── GestorServicios.java
+
 │
+
 └── ui/
+
     └── Main.java
+
+
 📂 Descripción de las clases
 
 ServicioTuristico
+
 
 Clase base que representa un servicio turístico.
 
 Atributos:
 
 nombre
+
 duracionHoras
+
 
 
 Subclase de ServicioTuristico.
@@ -52,6 +75,7 @@ Atributo adicional:
 numeroDeParadas
 
 Sobrescribe el método toString() para mostrar la información heredada y el atributo propio.
+
 
 
 PaseoLacustre
@@ -65,6 +89,7 @@ tipoEmbarcacion
 Utiliza super() para inicializar los atributos heredados y sobrescribe el método toString().
 
 
+
 ExcursionCultural
 
 Subclase de ServicioTuristico.
@@ -76,9 +101,11 @@ lugarHistorico
 Extiende la funcionalidad de la clase base reutilizando sus atributos mediante herencia.
 
 
+
 GestorServicios
 
 Clase encargada de crear instancias de prueba de cada tipo de servicio turístico.
+
 
 
 Main
@@ -86,6 +113,8 @@ Main
 Clase principal del sistema.
 
 Su función consiste en crear un objeto de GestorServicios y ejecutar el método encargado de crear y mostrar todos los servicios turísticos.
+
+
 
 
 ▶️ Instrucciones para ejecutar el proyecto
@@ -96,6 +125,8 @@ Verificar que todas las clases se encuentren organizadas en los paquetes corresp
 Ejecutar la clase:
 ui/Main.java
 Observar en la consola la información correspondiente a todos los servicios turísticos creados.
+
+
 
 🧪 Prueba realizada
 
