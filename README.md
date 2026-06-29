@@ -54,61 +54,61 @@ src/
 
 📂 Descripción de las clases
 
--ServicioTuristico
+          -ServicioTuristico
 
-Clase base que representa un servicio turístico.
-Atributos:
-nombre
-duracionHoras
-
-
-
-
-
--Subclase de ServicioTuristico.
-
-Atributo adicional:
-numeroDeParadas
-Sobrescribe el método toString() para mostrar la información heredada y el atributo propio.
-
-
-
--PaseoLacustre
-
-Subclase de ServicioTuristico.
-Atributo adicional:
-tipoEmbarcacion
-Utiliza super() para inicializar los atributos heredados y sobrescribe el método toString().
+           Clase base que representa un servicio turístico.
+           Atributos:
+           nombre
+           duracionHoras
 
 
 
 
 
+         -Subclase de ServicioTuristico.
 
--ExcursionCultural
+         Atributo adicional:
+         numeroDeParadas
+         Sobrescribe el método toString() para mostrar la información heredada y el atributo propio.
 
-Subclase de ServicioTuristico.
-Atributo adicional:
-lugarHistorico
-Extiende la funcionalidad de la clase base reutilizando sus atributos mediante herencia.
+
+
+        -PaseoLacustre
+
+        Subclase de ServicioTuristico.
+        Atributo adicional:
+        tipoEmbarcacion
+        Utiliza super() para inicializar los atributos heredados y sobrescribe el método toString().
 
 
 
 
 
 
--GestorServicios
-Clase encargada de crear instancias de prueba de cada tipo de servicio turístico.
+        -ExcursionCultural
+
+        Subclase de ServicioTuristico.
+        Atributo adicional:
+        lugarHistorico
+        Extiende la funcionalidad de la clase base reutilizando sus atributos mediante herencia.
 
 
 
 
 
 
--Main
+        -GestorServicios
+        Clase encargada de crear instancias de prueba de cada tipo de servicio turístico.
 
-Clase principal del sistema.
-Su función consiste en crear un objeto de GestorServicios y ejecutar el método encargado de crear y mostrar todos los servicios turísticos.
+
+
+
+
+ 
+        -Main
+   
+       Clase principal del sistema.
+       Su función consiste en crear un objeto de GestorServicios y ejecutar el método encargado de crear y mostrar todos los servicios turísticos.
 
 
 
